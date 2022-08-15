@@ -784,6 +784,7 @@ MonoBehaviour:
   ArPrefabs:
   - {fileID: 8524644889373255077, guid: 9d7b21943b5259b47b07c3ba2a41442a, type: 3}
   - {fileID: 6833283073252990967, guid: aff987eb183cfef4a947b27606f0d396, type: 3}
+  - {fileID: 1421968691109891379, guid: 888d08cd3cd72d948aa4770f8d265897, type: 3}
   Log: {fileID: 1114040582}
 --- !u!114 &1755997291
 MonoBehaviour:
