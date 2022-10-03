@@ -22,7 +22,7 @@ public class ChangeText2 : MonoBehaviour
         System.Net.WebClient wc = new System.Net.WebClient();
 
         //Main address: http://10.0.9.22:4567/weasels //Backup address: https://fabiangranig.at/weasels
-        byte[] raw = wc.DownloadData("https://fabiangranig.at/weasels");
+        byte[] raw = wc.DownloadData("http://10.0.9.22:4567/weasels");
 
         //Convert in an string
         string webData = System.Text.Encoding.UTF8.GetString(raw);
@@ -37,7 +37,7 @@ public class ChangeText2 : MonoBehaviour
         var u3 = root[2];
 
         //Create string values
-        string sol = "Name: " + u1.GetProperty("weaselId") + "\n" + "last Waypoint: " + u1.GetProperty("lastWaypoint");
+        string sol = "Name: " + u1.GetProperty("weaselId") + "\n" + "Online: " + u1.GetProperty("online") + "\n" + "Position: " + u1.GetProperty("lastWaypoint") + "\n" + "Akkustand: " + u1.GetProperty("battery");
 
         //Put the text on the gameobject
         myText.text = sol;

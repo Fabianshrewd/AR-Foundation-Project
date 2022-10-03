@@ -301,6 +301,7 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &345361318
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,9 +784,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ArPrefabs:
   - {fileID: 1421968691109891379, guid: 888d08cd3cd72d948aa4770f8d265897, type: 3}
-  - {fileID: 7433135824370081933, guid: b374f41512ef29b4c9d17c9f77cba592, type: 3}
   - {fileID: 5647711071484258060, guid: 63fd228d1c14cb94188cf7acfaca708a, type: 3}
   - {fileID: 8470259764927654047, guid: fa931897ef3f92d4c8f59f8e4c471fcb, type: 3}
+  - {fileID: 7433135824370081933, guid: b374f41512ef29b4c9d17c9f77cba592, type: 3}
   Log: {fileID: 1114040582}
 --- !u!114 &1755997291
 MonoBehaviour:
