@@ -9,6 +9,7 @@ using System.Net;
 
 public class ChangeText2 : MonoBehaviour
 {
+    public int weasel_id_outside;
     private byte[] raw;
     private System.Net.WebClient wc;
     private string ip_address;
@@ -20,29 +21,8 @@ public class ChangeText2 : MonoBehaviour
         //Get the TextMesh Object
         myText = GetComponent<TextMeshPro>();
 
-        try
-        {
-            using (var client = new WebClient())
-            using (client.OpenRead("10.0.9.22:4567"))
-            {
-                ip_address = "http://10.0.9.22:4567/weasels";
-            }
-        }
-        catch
-        {
-            try
-            {
-                using (var client = new WebClient())
-                using (client.OpenRead("https://fabiangranig.at/weasels"))
-                {
-                    ip_address = "https://fabiangranig.at/weasels";
-                }
-            }
-            catch
-            {
-                //Nichts passiert
-            }
-        }
+        //Get the ip address
+        ip_address = GameObject.Find("InternetChecker").GetComponent<InternetCheckerScript>().checked_ip_address;
     }
 
     // Update is called once per frame
@@ -65,9 +45,7 @@ public class ChangeText2 : MonoBehaviour
             JsonElement root = doc.RootElement;
 
             //Weasels aufteilen
-            var u1 = root[0];
-            var u2 = root[1];
-            var u3 = root[2];
+            var u1 = root[weasel_id_outside];
 
             //Create string values
             string sol = "Name: \t" + u1.GetProperty("weaselId") + "\n" + "Online: \t" + u1.GetProperty("online") + "\n" + "Position: \t" + u1.GetProperty("lastWaypoint") + "\n" + "Akku: \t" + u1.GetProperty("battery");
