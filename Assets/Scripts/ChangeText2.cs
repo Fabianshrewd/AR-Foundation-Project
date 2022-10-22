@@ -20,17 +20,18 @@ public class ChangeText2 : MonoBehaviour
     {
         //Get the TextMesh Object
         myText = GetComponent<TextMeshPro>();
-
-        //Get the ip address
-        ip_address = GameObject.Find("InternetChecker").GetComponent<InternetCheckerScript>().checked_ip_address;
     }
 
     // Update is called once per frame
     double timer = 0;
+    double timer_speed = 10;
     void Update()
     {
         if (timer > 2)
         {
+            //Get the ip address
+            ip_address = GameObject.Find("InternetChecker").GetComponent<InternetCheckerScript>().checked_ip_address;
+
             //Get the information from the weasel webserver
             System.Net.WebClient wc = new System.Net.WebClient();
 
@@ -54,11 +55,12 @@ public class ChangeText2 : MonoBehaviour
             myText.text = sol;
 
             //Reset timer
+            timer_speed = 1;
             timer = 0;
         }
         else
         {
-            timer += 1 * Time.deltaTime;
+            timer += timer_speed * Time.deltaTime;
         }
     }
 }
