@@ -87,3 +87,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: qr3
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4876911223165302543
+      m_GuidHigh: 16341464271537847171
+    m_SerializedTextureGuid:
+      m_GuidLow: 14192218432599246690
+      m_GuidHigh: 13769723270413112059
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: driving_weasel
+    m_Texture: {fileID: 0}
