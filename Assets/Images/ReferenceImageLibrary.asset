@@ -97,3 +97,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: driving_weasel
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4937743591912411609
+      m_GuidHigh: 2046653604361525909
+    m_SerializedTextureGuid:
+      m_GuidLow: 9701974335249834577
+      m_GuidHigh: 17729998267514101611
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: Seite1
+    m_Texture: {fileID: 0}
