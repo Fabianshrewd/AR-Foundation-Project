@@ -107,3 +107,33 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Seite1
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5046079804337929895
+      m_GuidHigh: 14500961193790618002
+    m_SerializedTextureGuid:
+      m_GuidLow: 12111571194331700753
+      m_GuidHigh: 11570477622632617337
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: qr1_produkt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5504729563628766842
+      m_GuidHigh: 14654654716004969368
+    m_SerializedTextureGuid:
+      m_GuidLow: 8724726541374834927
+      m_GuidHigh: 17382028492113567065
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: qr2_produkt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5542625555541459115
+      m_GuidHigh: 9884091339640246451
+    m_SerializedTextureGuid:
+      m_GuidLow: 6171074671484624341
+      m_GuidHigh: 10094281813504243929
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: qr3_produkt
+    m_Texture: {fileID: 0}
