@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="background-color: rgb(161, 159, 159); height: 100%;">
+        <ui:VisualElement style="height: 10%;" />
+        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Images/App_Icon.png?fileID=2800000&amp;guid=49361b369e2456c4a87253436eea8f86&amp;type=3#App_Icon&apos;); width: 100%; height: 30%; -unity-background-scale-mode: scale-to-fit; margin-bottom: 4%;" />
+        <ui:Button tabindex="-1" text="START" display-tooltip-when-elided="true" name="BUTTON-START" />
+        <ui:Button tabindex="-1" text="STOP" display-tooltip-when-elided="true" name="BUTTON-STOP" />
+        <ui:Label tabindex="-1" text="safety insdructions:" display-tooltip-when-elided="true" style="margin-top: 5%; margin-left: 5%;" />
+        <ui:Label tabindex="-1" text="Caution. While using this&#10; app please be aware of&#10; your surroundings. It is&#10; recommended that young&#10;er children have adult &#10;supervision when using&#10; Augmented Reality." display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+    </ui:VisualElement>
+</ui:UXML>

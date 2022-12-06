@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: ARProject
-  productName: ARProject
+  companyName: AR WEASEL
+  productName: AR WEASEL
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -141,6 +141,10 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 11400000, guid: 4159f2c0c4eb9a643942b7129d5b9e32, type: 2}
+  - {fileID: 11400000, guid: ef1cbac8c3fb914409b60f058d5b8c73, type: 2}
+  - {fileID: 11400000, guid: 366f4a8f77b75354f941c227f901733a, type: 2}
+  - {fileID: -7991984086483087822, guid: 95b9b5a2cf281cf49971bd6246de33a2, type: 2}
+  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -254,7 +258,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/fabex/3D Objects/Rest Dateien/AppKeystore/user.keystore
+  AndroidKeystoreName: C:/Users/fabex/3D Objects/Rest Dateien/user.keystore
   AndroidKeyaliasName: keystorearweasel
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
