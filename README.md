@@ -6,9 +6,9 @@ This fork of the AR Foundation was used to create an app for indentifying differ
 
 ## QR - Codes
 ```
-![Something is not right!](Assets/Images/qr1.png)
-![Something is not right!](Assets/Images/qr2.png)
-![Something is not right!](Assets/Images/qr3.png)
+![Error](Assets/Images/qr1.png)
+![Error](Assets/Images/qr2.png)
+![Error](Assets/Images/qr3.png)
 ```
 
 ## Presentation in HTL Wolfsberg on 3.digitization day
